@@ -1,0 +1,213 @@
+/*
+Theme Name: Hello thème enfant
+Description: Theme enfant de Momo
+Author: Momo
+Template: hello-elementor
+Version: 1.0.0
+*/
+
+body {
+    background-color: rgb(163, 162, 162);
+}
+
+
+/* Modification du header*/
+
+
+/*--------------------------------------------------*/
+
+#site-header {
+    background: rgb(26, 121, 138);
+    padding: 0.5em 2em;
+    border-bottom: 3px solid grey;
+    border-radius: 20px;
+    margin-top: 0.5em;
+    max-width: 80%;
+}
+
+.site-branding img {
+    width: 4em;
+    height: 4em;
+}
+
+.site-introduction {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 3em;
+    font-weight: 600;
+    padding-left: 1em;
+}
+
+.site-title a {
+    color: white;
+}
+
+.site-description {
+    color: white;
+    font-size: 2em;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/* Modification du menu principal
+/*--------------------------------------------------*/
+
+.menu-menu-principal-container ul li a {
+    font-size: 2em;
+}
+
+.menu-item a {
+    color: white;
+}
+
+.menu-item a:hover {
+    color: black;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/* Modification du footer
+/*--------------------------------------------------*/
+
+#site-copyright {
+    text-align: center;
+    color: white;
+}
+
+#site-footer {
+    background: rgb(26, 121, 138);
+    padding: 0.5em 2em;
+    border-bottom: 3px solid grey;
+    border-radius: 20px;
+    margin-bottom: 0.5em;
+    max-width: 80%;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/* Modification de la balise <main>
+/*--------------------------------------------------*/
+
+#content {
+    max-width: 80%;
+    border: #0D6EFD 3px solid;
+    border-radius: 20px;
+    margin: 0.5em auto;
+    padding: 0.5em 2em;
+    background-image: url('https://picsum.photos/id/1069/3000/1500');
+    background-size: cover;
+}
+
+.page-header,
+.page-content {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 0.5em 2em;
+}
+
+.page-header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.page-header image {
+    width: 20%;
+    margin-right: 2em;
+}
+
+.page-header div {
+    width: 90%;
+}
+
+.page-header div p a {
+    color: white;
+}
+
+.page-header div p a:hover {
+    text-decoration: underline;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/* Modification d'une catégorie sur l'accueil
+/*--------------------------------------------------*/
+
+.accueil {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categorie_produit {
+    width: 48%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.categorie_produit_item {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categorie_produit_item img {
+    width: 80%;
+    margin-top: 0.5em;
+}
+
+.categorie_produit_item p,
+.categorie_produit_item h3 {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/* Modification d'une archive
+/*--------------------------------------------------*/
+
+#archive_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.archive_item {
+    display: flex;
+    width: 40%;
+    align-items: start;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0.2em 0.2em;
+}
+
+.archive_item img {
+    width: 30%;
+    margin-top: 1em 0.5em;
+}
+
+.archive_item div {
+    width: 70%;
+    padding: 0 0.5em;
+    color: white;
+}
